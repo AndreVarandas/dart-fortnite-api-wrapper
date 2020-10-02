@@ -1,0 +1,12 @@
+name: fortnite_api_example
+description: Fortnite Api Wrapper Example.
+version: 0.0.1
+author: André Varandas
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  fortnite_api:
+    path: ../
