@@ -1,8 +1,8 @@
 
-<center> <a  href="https://www.freepnglogos.com/images/fortnite-png-27038.html" ><img  src="https://www.freepnglogos.com/uploads/fortnite-png/fortnite-logo-logo-fortnite-png-photo-icons-and-png-6.png"
-width="200" alt="fortnite logo, logo fortnite png photo icons and png" /></a> </center>
+<a  href="https://www.freepnglogos.com/images/fortnite-png-27038.html" ><img  src="https://www.freepnglogos.com/uploads/fortnite-png/fortnite-logo-logo-fortnite-png-photo-icons-and-png-6.png"
+width="200" alt="fortnite logo, logo fortnite png photo icons and png" /></a>
 
-<center><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a> </center> 
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a> 
 
 # Fortnite Api Wrapper
 Fortnite api wrapper is a dart library for interacting with the [FORTNITE-API](https://fortnite-api.com/).
