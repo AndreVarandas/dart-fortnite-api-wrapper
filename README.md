@@ -30,7 +30,7 @@ Please make sure to update tests as appropriate.
 
 ## Feedback
 
-Please feel free to [give us any feedback](https://github.com/dart-fortnite-api-wrapper/issues/new)
+Please feel free to [give us any feedback](https://github.com/andrevarandas/dart-fortnite-api-wrapper/issues/new)
 helping support this plugin !
 
 ## License
