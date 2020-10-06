@@ -1,4 +1,4 @@
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/0Xkf3WD/logo.png" alt="logo" border="0"></a>
+<img src="https://github.com/AndreVarandas/dart-fortnite-api-wrapper/tree/main/art/logo.png" alt="logo" border="0">
 
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a> 
 
