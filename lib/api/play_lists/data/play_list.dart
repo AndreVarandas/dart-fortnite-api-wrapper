@@ -39,24 +39,24 @@ class PlayList {
 
   PlayList(
       {this.id,
-      this.name,
-      this.description,
-      this.gameType,
-      this.minPlayers,
-      this.maxPlayers,
-      this.maxTeams,
-      this.maxTeamSize,
-      this.maxSquads,
-      this.maxSquadSize,
-      this.isDefault,
-      this.isTournament,
-      this.isLimitedTimeMode,
-      this.isLargeTeamGame,
-      this.accumulateToProfileStats,
-      this.images,
-      this.gameplayTags,
-      this.path,
-      this.added});
+        this.name,
+        this.description,
+        this.gameType,
+        this.minPlayers,
+        this.maxPlayers,
+        this.maxTeams,
+        this.maxTeamSize,
+        this.maxSquads,
+        this.maxSquadSize,
+        this.isDefault,
+        this.isTournament,
+        this.isLimitedTimeMode,
+        this.isLargeTeamGame,
+        this.accumulateToProfileStats,
+        this.images,
+        this.gameplayTags,
+        this.path,
+        this.added});
 
   /// A necessary factory constructor for creating a new User instance
   /// from a map. Pass the map to the generated `_$PlayListFromJson()` constructor.
