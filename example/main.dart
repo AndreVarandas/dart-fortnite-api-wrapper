@@ -1,35 +1,46 @@
 import 'dart:io';
 
-import 'package:http/http.dart' as http;
-
-import 'package:fortnite_api/models/models.dart';
-import 'package:fortnite_api/repositories/repositories.dart';
+import 'package:fortnite_api/fortnite_api.dart';
 
 main(List<String> args) async {
-  // Get playlists
-  PlayListRepository playListRepository = PlayListRepository(
-      playListApiClient: PlayListApiClient(httpClient: http.Client()));
+  // Instantiate client
+  final fortniteClient = FortniteApi(
+      client:
+          FortniteClient(apiKey: 'GET YOUR API KEY FROM https://dash.fortnite-api.com/'));
 
-  BannerRepository bannerRepository = BannerRepository(
-      bannerApiClient: BannerApiClient(httpClient: http.Client()));
+  // Get some info like:
 
-  // Get Playlist by id
-  List<PlayList> playLists = await playListRepository.fetchPlayList();
-  for (var playList in playLists) {
-    print(playList.description);
-  }
-
-  // Get banners
-  List<Banner> banners = await bannerRepository.fetchBanners();
+  // BANNERS
+  /*final banners = await fortniteClient.bannerService.fetchBanners();
   for (var banner in banners) {
-    print(banner.images.icon);
-  }
+    print(banner.description);
+  }*/
 
-  // Get banner colors
-  List<BannerColor> bannerColors = await bannerRepository.fetchColors();
-  for (var banner in bannerColors) {
-    print(banner.color);
-  }
+  /*final bannerColors = await fortniteClient.bannerService.fetchBannerColors();
+  for (var bannerColor in bannerColors) {
+    print(bannerColor.color);
+  }*/
+
+  // PLAYLISTS
+  /*final playLists = await fortniteClient.playListService.fetchPlayLists();
+  for (var playList in playLists) {
+    print(playList.id);
+  }*/
+  
+  /*final playList = await fortniteClient.playListService.fetchPlayListById(id: 'Playlist_DefaultDuo_vs_Phoebe');
+  print(playList.description);*/
+
+  // STATS
+  /*final playerAccount = await fortniteClient.accountService.fetchPlayerByName(name: 'ninja');
+  print(playerAccount.account.id);*/
+
+  // Ninja id: 4735ce9132924caf8a5b17789b40f79c
+  // final playerAccount = await fortniteClient.accountService.fetchPlayerById(id: '4735ce9132924caf8a5b17789b40f79c');
+  // print(playerAccount);
+
+  // MAP
+  // final mapInfo = await fortniteClient.mapService.fetchMapInfo();
+  // print(mapInfo.pois.first);
 
   exit(0);
 }
