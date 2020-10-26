@@ -6,6 +6,11 @@
 
 Fortnite api wrapper is a dart library for interacting with the [FORTNITE-API](https://fortnite-api.com/).
 
+**Note**
+
+This is a work in progress and some features are not implemented yet. 
+For now, please use example/main.dart as a guide.
+
 ## Use this package as a library
 
 ### 1. Depend on it
